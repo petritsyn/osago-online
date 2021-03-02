@@ -7,18 +7,129 @@
 html,
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*Основные стили*/
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid black;
 }
+
+/*header*/
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.online {
+    color: grey;
+}
+
+.eosago {
+    font-weight: bold;
+}
+
+.tel {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*main__first*/
+
+.main__first {
+    height: 520px;
+    background-color: #f5f6f7;
+}
+
+.content__first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first__description div {
+    margin-bottom: 20px;
+}
+
+.first__description div:nth-child(1) {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.first__description div:nth-child(2) {
+    font-size: 1.2em;
+}
+
+.first__description div:nth-child(3) {
+    font-size: 1.2em;
+}
+
+.content__first button {
+    background-color: #fedd2d;
+    height: 65px;
+    width: 265px;
+    border: 0;
+    border-radius: 8px;
+}
+
+.car {
+    position: absolute;
+    left: -200px;
+    top: 150px;
+    max-width: 30%;
+}
+
+.div__man {
+    height: 520px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*form*/
+
+.form1 {
+    width: 360px;
+    height: 470px;
+    background-color: white;
+}
+
+.form1 legend {
+    height: 76px;
+    width: 100%;
+    background-color: #fedd2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1 legend div {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form1__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form1 input {
+    border: 0;
+    background-color: #f5f6f7;
+    width: 300px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.form1 .submit {
+    height: 58px;
+    background-color: #fedd2d;
+}
+
