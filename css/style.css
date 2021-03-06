@@ -34,7 +34,7 @@ header .container {
 }
 
 .tel {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
@@ -56,16 +56,16 @@ header .container {
 }
 
 .first__description div:nth-child(1) {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
 .first__description div:nth-child(2) {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .first__description div:nth-child(3) {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .content__first button {
@@ -80,7 +80,7 @@ header .container {
     position: absolute;
     left: -200px;
     top: 150px;
-    max-width: 30%;
+    max-width: 25%;
 }
 
 .div__man {
@@ -97,6 +97,10 @@ header .container {
     background-color: white;
 }
 
+.form1 .submit {
+    font-size: 1.1em;
+}
+
 .form1 legend {
     height: 76px;
     width: 100%;
@@ -107,7 +111,7 @@ header .container {
 }
 
 .form1 legend div {
-    font-size: 1.5em;
+    font-size: 1.1em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -133,3 +137,25 @@ header .container {
     background-color: #fedd2d;
 }
 
+/*content__second*/
+
+.content__second p {
+    text-align: center;
+}
+
+.content__second p:nth-child(1) {
+    font-size: 1.7em;
+    font-weight: bold;
+    line-height: 0.2;
+    margin-top: 80px;
+}
+
+.content__second p:nth-child(2) {
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 0.2;
+}
+
+.content__second p:nth-child(3) {
+    margin-top: 50px;
+}
