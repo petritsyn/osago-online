@@ -23,17 +23,35 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
 }
 
-.online {
+.header__center {
+    display: flex;
+}
+
+.header__center a {
+    margin: 0 12px;
     color: grey;
+    text-decoration: none;
+    font-size: 0.9em;
 }
 
-.eosago {
+.header__center a:hover {
+    color: black;
+}
+
+.header__left div:nth-child(1) {
+    color: grey;
+    font-size: 0.8em;
+}
+
+.header__left div:nth-child(2) {
     font-weight: bold;
+    color: black;
 }
 
-.tel {
+.header__right {
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -52,7 +70,7 @@ header .container {
 }
 
 .first__description div {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .first__description div:nth-child(1) {
@@ -62,10 +80,12 @@ header .container {
 
 .first__description div:nth-child(2) {
     font-size: 1.1em;
+    font-weight: 100;
 }
 
 .first__description div:nth-child(3) {
     font-size: 1.1em;
+    font-weight: 100;
 }
 
 .content__first button {
@@ -74,6 +94,17 @@ header .container {
     width: 265px;
     border: 0;
     border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.content__first button:hover {
+    background-color: orange;
+    transition: 0.5s;
+}
+
+.content__first button:not(:hover) {
+    transition: 0.5s;
 }
 
 .car {
