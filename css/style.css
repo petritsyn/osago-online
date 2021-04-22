@@ -30,6 +30,11 @@ header .container {
     height: 50px;
 }
 
+header a {
+    color: black;
+    text-decoration: none;
+}
+
 .header__center {
     display: flex;
 }
@@ -298,4 +303,9 @@ footer {
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 30px;
+}
+
+.contacts a {
+    color: white;
+    text-decoration: none;
 }
